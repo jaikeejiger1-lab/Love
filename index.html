@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For Shivani — My Stardust Soul</title>
+  <meta name="description"
+    content="A romantic website dedicated to Shivani, from Jiger — celebrating love, beauty, and forever." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Outfit:wght@300;400;500;600&family=Dancing+Script:wght@400;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <nav id="navbar">
+    <div class="nav-logo">J <span class="nav-heart">♥</span> S</div>
+    <ul class="nav-links">
+      <li><a href="#home" class="nav-link active" data-page="home">Home</a></li>
+      <li><a href="#story" class="nav-link" data-page="story">Our Story</a></li>
+      <li><a href="#beauty" class="nav-link" data-page="beauty">Beauty Notes</a></li>
+      <li><a href="#mine" class="nav-link" data-page="mine">Always Mine</a></li>
+    </ul>
+    <button class="nav-menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+  </nav>
+
+  <div class="mobile-nav" id="mobileNav">
+    <button class="mobile-nav-close" id="mobileNavClose">✕</button>
+    <ul>
+      <li><a href="#home" class="mobile-link">Home</a></li>
+      <li><a href="#story" class="mobile-link">Our Story</a></li>
+      <li><a href="#beauty" class="mobile-link">Beauty Notes</a></li>
+      <li><a href="#mine" class="mobile-link">Always Mine</a></li>
+    </ul>
+  </div>
+
+  <section id="home" class="page page-home">
+
+    <canvas id="particleCanvas"></canvas>
+
+    <div class="hero-scroll-container" id="heroScrollContainer">
+      <div class="hero-sticky">
+        <div class="hero-3d-scene" id="hero3dScene">
+          <div class="petal-layer layer-1"></div>
+          <div class="petal-layer layer-2"></div>
+          <div class="petal-layer layer-3"></div>
+
+          <div class="hero-glass-card" id="heroCard">
+            <div class="card-sparkle" aria-hidden="true">✦</div>
+            <p class="hero-from">From Jiger, with all my heart</p>
+            <h1 class="hero-title">For Shivani,<br /><em>My Stardust Soul.</em></h1>
+            <p class="hero-subtitle">You started as my online friend, became my girlfriend, and now you are my entire
+              universe — meri jaan, meri life.</p>
+            <div class="hero-cta-row">
+              <a href="#story" class="btn-primary" id="heroCtaBtn">Explore Our Story</a>
+              <div class="hero-scroll-hint">
+                <span class="scroll-dot"></span>
+                <span>Scroll to discover</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="float-heart fh-1">♥</div>
+          <div class="float-heart fh-2">♡</div>
+          <div class="float-heart fh-3">♥</div>
+          <div class="float-star fs-1">✦</div>
+          <div class="float-star fs-2">✧</div>
+          <div class="float-star fs-3">✦</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-indicator" id="scrollIndicator">
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <section id="story" class="page page-story">
+    <div class="section-bg-overlay"></div>
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-eyebrow">Chapter Two</span>
+        <h2 class="section-title">Our Story</h2>
+        <p class="section-sub">Every love story is beautiful, but ours is my favourite.</p>
+      </div>
+
+      <div class="timeline">
+
+        <div class="timeline-item reveal-left">
+          <div class="timeline-dot">
+            <span>✦</span>
+          </div>
+          <div class="timeline-glass-card">
+            <span class="timeline-date">When We Met Online</span>
+            <h3 class="timeline-heading">A Digital Spark</h3>
+            <p class="timeline-text">The universe conspired to bring two digital worlds together. We started as just
+              online friends, but one glance at your text was enough to rewrite the stars. In that single moment,
+              something irreversible happened — I fell, completely and willingly, for you, meri ppyari betaa.</p>
+            <div class="timeline-emoji">🌸</div>
+          </div>
+        </div>
+
+        <div class="timeline-item timeline-item-right reveal-right">
+          <div class="timeline-dot">
+            <span>♥</span>
+          </div>
+          <div class="timeline-glass-card">
+            <span class="timeline-date">Distance Means Nothing</span>
+            <h3 class="timeline-heading">Words That Became Home</h3>
+            <p class="timeline-text">Even though we’ve never met in real life, your words became my safe space. We
+              talked about everything and nothing all at once. Your text notifications became what I look forward to
+              most. You are my meri beta and my home — a place I never want to leave.</p>
+            <div class="timeline-emoji">💬</div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-left">
+          <div class="timeline-dot">
+            <span>✧</span>
+          </div>
+          <div class="timeline-glass-card">
+            <span class="timeline-date">Growing Together</span>
+            <h3 class="timeline-heading">Two Screens, One Heartbeat</h3>
+            <p class="timeline-text">We grew into each other's lives like vines in sunlight. Your dreams became mine to
+              protect. Your virtual smile became my daily reason to be better, to love harder, to stay. I love you so
+              much, meri Gadhi.</p>
+            <div class="timeline-emoji">🌷</div>
+          </div>
+        </div>
+
+        <div class="timeline-item timeline-item-right reveal-right">
+          <div class="timeline-dot">
+            <span>♡</span>
+          </div>
+          <div class="timeline-glass-card">
+            <span class="timeline-date">Every Moment After</span>
+            <h3 class="timeline-heading">A Forever I Choose Daily</h3>
+            <p class="timeline-text">Every morning I choose you again. Every evening I'm grateful you exist. This isn't
+              just love, Shivani — this is the kind of feeling that changes a person forever, and I can't wait for the
+              day we finally meet in person, meri babu.</p>
+            <div class="timeline-emoji">🌹</div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-left">
+          <div class="timeline-dot">
+            <span>★</span>
+          </div>
+          <div class="timeline-glass-card">
+            <span class="timeline-date">Today & Always</span>
+            <h3 class="timeline-heading">Writing Our Next Chapter</h3>
+            <p class="timeline-text">The best part of our story hasn't been written yet. Soon, we will step out of the
+              screen and into real life. Every day with you is a new page, a new adventure, and a step closer to you,
+              meri Mehraru.</p>
+            <div class="timeline-emoji">✨</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="beauty" class="page page-beauty">
+    <div class="section-bg-overlay"></div>
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-eyebrow">Chapter Three</span>
+        <h2 class="section-title">Notes on Your Beauty</h2>
+        <p class="section-sub">Words feel small when describing someone like you, but I will keep trying.</p>
+      </div>
+
+      <div class="quotes-grid">
+
+        <div class="quote-card reveal-up" style="--delay: 0.1s">
+          <div class="quote-glow"></div>
+          <div class="quote-icon">✦</div>
+          <blockquote class="quote-text">
+            "Your beauty stole my breath the first time I saw you on my screen… and it still does every single day, meri
+            jaan."
+          </blockquote>
+          <div class="quote-footer">
+            <span class="quote-dash">—</span>
+            <span class="quote-author">Jiger, always</span>
+          </div>
+          <div class="quote-bg-letter">I</div>
+        </div>
+
+        <div class="quote-card reveal-up" style="--delay: 0.2s">
+          <div class="quote-glow"></div>
+          <div class="quote-icon">♥</div>
+          <blockquote class="quote-text">
+            "It's that heart of gold and stardust soul that makes you beautiful."
+          </blockquote>
+          <div class="quote-footer">
+            <span class="quote-dash">—</span>
+            <span class="quote-author">R.M. Broderick</span>
+          </div>
+          <div class="quote-bg-letter">II</div>
+        </div>
+
+        <div class="quote-card reveal-up" style="--delay: 0.3s">
+          <div class="quote-glow"></div>
+          <div class="quote-icon">✧</div>
+          <blockquote class="quote-text">
+            "Each side of your appearance and each trait of your character is beautiful — you are the most balanced
+            person I have ever known, meri babu."
+          </blockquote>
+          <div class="quote-footer">
+            <span class="quote-dash">—</span>
+            <span class="quote-author">Written for Shivani</span>
+          </div>
+          <div class="quote-bg-letter">III</div>
+        </div>
+
+        <div class="quote-card reveal-up" style="--delay: 0.4s">
+          <div class="quote-glow"></div>
+          <div class="quote-icon">♡</div>
+          <blockquote class="quote-text">
+            "I wish you could see yourself in the way I see you. You're so beautiful."
+          </blockquote>
+          <div class="quote-footer">
+            <span class="quote-dash">—</span>
+            <span class="quote-author">Colleen Hoover</span>
+          </div>
+          <div class="quote-bg-letter">IV</div>
+        </div>
+
+        <div class="quote-card quote-card-featured reveal-up" style="--delay: 0.5s">
+          <div class="quote-glow"></div>
+          <div class="quote-icon featured-icon">❧</div>
+          <blockquote class="quote-text featured-quote">
+            "You are my favourite kind of magic, meri Mehraru — the kind I never want to explain."
+          </blockquote>
+          <div class="quote-footer">
+            <span class="quote-dash">—</span>
+            <span class="quote-author">Jiger ♥</span>
+          </div>
+          <div class="quote-bg-letter">∞</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="mine" class="page page-mine">
+    <div class="section-bg-overlay"></div>
+    <canvas id="heartCanvas"></canvas>
+
+    <div class="container mine-container">
+      <div class="mine-content reveal-up" id="proposalContent">
+
+        <div class="mine-icon-wrapper">
+          <div class="mine-big-heart" id="mineBigHeart">♥</div>
+        </div>
+
+        <h2 class="mine-title">Shivani,</h2>
+        <p class="mine-question">Will you be my Valentine, meri Gadhi? 💝</p>
+        <p class="mine-subtitle">Every day with you is Valentine's Day — but I'd like to make it official.</p>
+
+        <div class="mine-buttons" id="mineButtons">
+          <button class="btn-yes" id="yesBtn">Yes, Always! 💕</button>
+          <button class="btn-no" id="noBtn">No</button>
+        </div>
+
+      </div>
+
+      <div class="mine-yes-response" id="yesResponse" style="display:none;">
+        <div class="yes-heart-pulse">♥</div>
+        <h2 class="yes-title">She Said Yes! 🎉</h2>
+        <p class="yes-message">I knew it! I love you, Shivani. Today, tomorrow, and every day after that. You are my
+          greatest adventure, my sweetest reason, my forever Valentine, meri life. 💕</p>
+        <p class="yes-signature">— Jiger 🌹</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-hearts">
+      <span>♥</span><span>♡</span><span>♥</span>
+    </div>
+    <p class="footer-text">Made with infinite love by <strong>Jiger</strong> for <strong>Shivani</strong></p>
+    <p class="footer-sub">You are my reason the stars shine so bright ✦</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
